@@ -1,9 +1,6 @@
 # piston
 
-A simple static site generator (currently supporting Jinja2 templates)
-
-*This is a work in progress, feel free to try it out, but it is currently being
-built and actively modified, and expanded on.*
+A simple static site generator *(currently supporting Jinja2 templates)*
 
 ### Setup
 
