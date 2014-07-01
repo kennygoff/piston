@@ -22,7 +22,7 @@ built into `.html` files.
 ### Advanced
 
 Files starting with `.` will be ignored by piston. This allows you to create
-base templates that you can furthervextend, but not have show up with its own
+base templates that you can further extend, but not have show up with its own
 `.html` file.
 
 For example, I use `.base.jinja` and extend `index.jinja` from the base. Piston
