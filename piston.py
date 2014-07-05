@@ -31,6 +31,7 @@ for root, dirs, files in os.walk("."):
             }
             output = template.render(template_vars)
 
+            filebuild = "%s/%s.html" % (build_root, filename)
             with open(filebuild, "wb") as fh:
                 fh.write(output)
         else:
